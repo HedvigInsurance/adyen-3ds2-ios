@@ -11,6 +11,7 @@ let package = Package(
     products: [
         .library(
             name: "Adyen3DS2",
+            type: .dynamic,
             targets: ["Adyen3DS2"])
     ],
     dependencies: [],
